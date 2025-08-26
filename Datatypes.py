@@ -201,9 +201,68 @@ reverse=text[::-1]
 print("The reverse text is :-",reverse)'''
 
 #Q10.Print the first and last character of a given string.
-text=input("enter the text :-")
+'''text=input("enter the text :-")
 if len (text) > 0:
     print("first character:-",text[0])
     print("Last character :-",text[-1])
 else:
-    print("String is empty !")
+    print("String is empty !")'''
+    
+#^List
+#Q1.reate a list of 5 numbers and calculate the sum and average.
+'''list=[34,56,98,32,12]
+total=sum(list)
+average=total/len(list)
+print("List of numbers:",list)
+print("sum",total)
+print("Average",average)'''
+#Q2.Add, remove, and update an element in a list.
+'''data=["mango","apple","banana"]
+print("Orignal List",data)
+data.append("garpes")
+print("After add garpes",data)
+data.remove("mango")
+print("After removing mango",data)
+data[1]="orange"
+print("After uodating banana: ",data)'''
+
+#Q3.Sort a list in ascending order and print it.
+'''list=[98,43,90,43,34,1]
+print("Orignal list:-",list)
+list.sort()
+print("Sortes list :-",list)'''
+
+#Q.Sort a list in ascending order and print it.
+'''list=[98,43,90,43,34,1]
+print("Orignal List:-",list)
+list.sort(reverse=True)
+print("Sorted list(Descending):",list)'''
+
+#Q4.Check whether a particular number exists in a list or not.
+'''list=[10,20,30,40,50]
+num=int(input("enter the value :-"))
+if num in list:
+    print(f"{num} exists in the list")
+else:
+    print("f{num} it is not exist in the loop")'''
+    
+#Q5.Remove duplicate elements from a list and print the unique list.
+'''num=[10,20,30,40,50,10,50,40]
+unique_list=list(set(num))
+print("unique list :-",unique_list)'''
+
+#^ Tuple
+#Q1.Create a tuple and count how many times a particular element appears in it.
+'''numbers=(1,3,6,1,5,6)
+num=int(input("enter the number to count :-"))
+count=numbers.count(num)
+print(f"{num} appears {count} times in the tuple")'''
+
+#Q2.Find the index of an element in a tuple.
+numbers=(10,20,30,40,50,60,70,80,90,100)
+num=int(input("enter the number to find its index:-"))
+if num in numbers:
+    index=numbers.index(num)
+    print(f"The first occurrance of {num} is at index {index}.")
+else:
+    print(f"{num} is not present in the tuple.")
