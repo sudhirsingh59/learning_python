@@ -178,8 +178,32 @@ print("smallest is ",smallest)'''
 #^ String (str)
 #Q6.ake the user’s name and print it in uppercase, lowercase, and also print its length.
 
-name=input("Enter your name:-")
+'''name=input("Enter your name:-")
 print("Uppercase:",name.upper())
 print("Lowercase:",name.lower())
-print("Length:",len(name))
+print("Length:",len(name))'''
 
+#Q7.Take a sentence as input and count how many words it has.
+'''sentence=input("Enter a sentence:-")
+words=sentence.split()
+print("Total words in the sentacne:-",len(words))'''
+
+#Q8.Check whether the word "python" exists inside a given string.
+'''text=input("enter the text:-")
+if "python" in text:
+    print("it is exists in string")
+else:
+    print("it is not exists in string")'''
+    
+#Q9.Take a string from the user and print it in reverse.
+'''text=input("enter the text:-")
+reverse=text[::-1]
+print("The reverse text is :-",reverse)'''
+
+#Q10.Print the first and last character of a given string.
+text=input("enter the text :-")
+if len (text) > 0:
+    print("first character:-",text[0])
+    print("Last character :-",text[-1])
+else:
+    print("String is empty !")
