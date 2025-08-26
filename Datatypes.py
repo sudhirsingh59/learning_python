@@ -178,5 +178,8 @@ print("smallest is ",smallest)'''
 #^ String (str)
 #Q6.ake the user’s name and print it in uppercase, lowercase, and also print its length.
 
-
+name=input("Enter your name:-")
+print("Uppercase:",name.upper())
+print("Lowercase:",name.lower())
+print("Length:",len(name))
 
